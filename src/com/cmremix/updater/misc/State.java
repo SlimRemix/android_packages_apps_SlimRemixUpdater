@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Vanir Project
+ * Copyright (C) 2012 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater.misc;
+package com.cmremix.updater.misc;
 
 import android.content.Context;
 import android.util.Log;
@@ -23,7 +23,7 @@ import java.util.LinkedList;
 
 public class State {
     private static final String TAG = "State";
-    private static final String FILENAME = "vanirupdater.state";
+    private static final String FILENAME = "cmremixupdater.state";
 
     public static void saveState(Context context, LinkedList<UpdateInfo> availableUpdates) {
         ObjectOutputStream oos = null;

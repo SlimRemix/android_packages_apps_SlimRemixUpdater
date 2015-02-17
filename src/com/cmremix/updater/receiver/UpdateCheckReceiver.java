@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Vanir Project
+ * Copyright (C) 2012 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater.receiver;
+package com.cmremix.updater.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -17,9 +17,9 @@ import android.net.ConnectivityManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.vanir.updater.misc.Constants;
-import com.vanir.updater.service.UpdateCheckService;
-import com.vanir.updater.utils.Utils;
+import com.cmremix.updater.misc.Constants;
+import com.cmremix.updater.service.UpdateCheckService;
+import com.cmremix.updater.utils.Utils;
 
 public class UpdateCheckReceiver extends BroadcastReceiver {
     private static final String TAG = "UpdateCheckReceiver";

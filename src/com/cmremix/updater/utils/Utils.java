@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 The Vanir Project
+ * Copyright (C) 2013 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater.utils;
+package com.cmremix.updater.utils;
 
 import android.app.AlarmManager;
 import android.app.NotificationManager;
@@ -31,9 +31,9 @@ import android.util.Log;
 
 import android.view.DisplayInfo;
 import android.view.WindowManager;
-import com.vanir.updater.R;
-import com.vanir.updater.misc.Constants;
-import com.vanir.updater.service.UpdateCheckService;
+import com.cmremix.updater.R;
+import com.cmremix.updater.misc.Constants;
+import com.cmremix.updater.service.UpdateCheckService;
 
 import java.io.BufferedReader;
 import java.io.File;

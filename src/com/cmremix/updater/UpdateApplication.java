@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Vanir Project (DvTonder)
+ * Copyright (C) 2012 cmRemiX Rom (DvTonder)
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater;
+package com.cmremix.updater;
 
 import android.app.Activity;
 import android.app.Application;

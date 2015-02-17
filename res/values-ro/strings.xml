@@ -1,6 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 cmRemiX Rom
+
+     Licensed under the GNU GPLv2 license
+
+     The text of the license can be found in the LICENSE file
+     or at https://www.gnu.org/licenses/gpl-2.0.txt
+-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">"Actualizări CM"</string>
+    <string name="app_name">"Actualizări cmRemiX"</string>
     <string name="display_name">Actualizări"</string>
     <string name="unknown">"Necunoscut"</string>
     <string name="menu_refresh">"Reîmprospătare"</string>

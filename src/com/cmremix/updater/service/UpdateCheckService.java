@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Vanir Project
+ * Copyright (C) 2012 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater.service;
+package com.cmremix.updater.service;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -21,14 +21,14 @@ import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.vanir.updater.R;
-import com.vanir.updater.UpdateApplication;
-import com.vanir.updater.UpdatesSettings;
-import com.vanir.updater.misc.Constants;
-import com.vanir.updater.misc.State;
-import com.vanir.updater.misc.UpdateInfo;
-import com.vanir.updater.receiver.DownloadReceiver;
-import com.vanir.updater.utils.Utils;
+import com.cmremix.updater.R;
+import com.cmremix.updater.UpdateApplication;
+import com.cmremix.updater.UpdatesSettings;
+import com.cmremix.updater.misc.Constants;
+import com.cmremix.updater.misc.State;
+import com.cmremix.updater.misc.UpdateInfo;
+import com.cmremix.updater.receiver.DownloadReceiver;
+import com.cmremix.updater.utils.Utils;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -64,11 +64,11 @@ public class UpdateCheckService extends IntentService {
     private static final boolean TESTING_DOWNLOAD = false;
 
     // request actions
-    public static final String ACTION_CHECK = "com.vanir.vanirupdater.action.CHECK";
-    public static final String ACTION_CANCEL_CHECK = "com.vanir.vanirupdater.action.CANCEL_CHECK";
+    public static final String ACTION_CHECK = "com.cmremix.cmremixupdater.action.CHECK";
+    public static final String ACTION_CANCEL_CHECK = "com.cmremix.cmremixupdater.action.CANCEL_CHECK";
 
     // broadcast actions
-    public static final String ACTION_CHECK_FINISHED = "com.vanir.vanirupdater.action.UPDATE_CHECK_FINISHED";
+    public static final String ACTION_CHECK_FINISHED = "com.cmremix.cmremixupdater.action.UPDATE_CHECK_FINISHED";
     // extra for ACTION_CHECK_FINISHED: total amount of found updates
     public static final String EXTRA_UPDATE_COUNT = "update_count";
     // extra for ACTION_CHECK_FINISHED: amount of updates that are newer than what is installed
@@ -263,8 +263,8 @@ public class UpdateCheckService extends IntentService {
     private LinkedList<UpdateInfo> getUpdateInfos(String url, int updateType) {
         boolean includeAll = updateType == Constants.UPDATE_TYPE_ALL_NIGHTLY;
             //|| updateType == Constants.UPDATE_TYPE_ALL_STABLE;
-        Log.d(TAG, "Looking for updates at "+url+"vanir_update_list");
-        LinkedList<String> versions = Utils.readMultilineFile(url+"vanir_updater_list");
+        Log.d(TAG, "Looking for updates at "+url+"cmremix_update_list");
+        LinkedList<String> versions = Utils.readMultilineFile(url+"cmremix_updater_list");
         LinkedList<UpdateInfo> infos = new LinkedList<UpdateInfo>();        
         for (String v : versions) {
             Log.d(TAG, "Fetching info for build "+v);

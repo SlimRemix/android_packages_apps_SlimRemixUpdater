@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Vanir Project
+ * Copyright (C) 2012 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,14 +7,14 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater.misc;
+package com.cmremix.updater.misc;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.text.TextUtils;
 
-import com.vanir.updater.utils.Utils;
+import com.cmremix.updater.utils.Utils;
 
 import java.io.File;
 import java.io.Serializable;

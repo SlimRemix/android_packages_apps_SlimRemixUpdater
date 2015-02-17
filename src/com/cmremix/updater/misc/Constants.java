@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Vanir Project
+ * Copyright (C) 2012 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,11 +7,11 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater.misc;
+package com.cmremix.updater.misc;
 
 public class Constants {
     // Download related
-    public static final String UPDATES_FOLDER = "vanirupdater";
+    public static final String UPDATES_FOLDER = "cmremixupdater";
     public static final String DOWNLOAD_ID = "download_id";
     public static final String DOWNLOAD_MD5 = "download_md5";
 
@@ -19,7 +19,7 @@ public class Constants {
     public static final String ENABLE_PREF = "pref_enable_updates";
     public static final String BACKUP_PREF = "pref_backup_rom";
     public static final String UPDATE_CHECK_PREF = "pref_update_check_interval";
-    public static final String UPDATE_TYPE_PREF = "vanir_pref_update_types";//"pref_update_types";
+    public static final String UPDATE_TYPE_PREF = "cmremix_pref_update_types";//"pref_update_types";
     public static final String LAST_UPDATE_CHECK_PREF = "pref_last_update_check";
 
     // Update Check items

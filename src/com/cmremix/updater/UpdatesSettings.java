@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Vanir Project (DvTonder)
+ * Copyright (C) 2012 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater;
+package com.cmremix.updater;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -40,13 +40,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.vanir.updater.misc.Constants;
-import com.vanir.updater.misc.State;
-import com.vanir.updater.misc.UpdateInfo;
-import com.vanir.updater.receiver.DownloadReceiver;
-import com.vanir.updater.service.UpdateCheckService;
-import com.vanir.updater.utils.UpdateFilter;
-import com.vanir.updater.utils.Utils;
+import com.cmremix.updater.misc.Constants;
+import com.cmremix.updater.misc.State;
+import com.cmremix.updater.misc.UpdateInfo;
+import com.cmremix.updater.receiver.DownloadReceiver;
+import com.cmremix.updater.service.UpdateCheckService;
+import com.cmremix.updater.utils.UpdateFilter;
+import com.cmremix.updater.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -579,7 +579,7 @@ public class UpdatesSettings extends PreferenceActivity implements
         mUpdatesList.removeAll();
 
         // Convert the installed version name to the associated filename
-        String installedZip = "vanir_" + Utils.getInstalledVersion() + ".zip";
+        String installedZip = "cmremix_" + Utils.getInstalledVersion() + ".zip";
 
         // Add the updates
         for (UpdateInfo ui : updates) {

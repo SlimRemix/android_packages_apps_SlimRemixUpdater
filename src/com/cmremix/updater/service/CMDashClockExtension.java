@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012 The Vanir Project
+ * Copyright (C) 2012 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,17 +7,17 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater.service;
+package com.cmremix.updater.service;
 
 import android.content.Intent;
 import android.content.res.Resources;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.vanir.updater.R;
-import com.vanir.updater.UpdatesSettings;
-import com.vanir.updater.misc.State;
-import com.vanir.updater.misc.UpdateInfo;
+import com.cmremix.updater.R;
+import com.cmremix.updater.UpdatesSettings;
+import com.cmremix.updater.misc.State;
+import com.cmremix.updater.misc.UpdateInfo;
 import com.google.android.apps.dashclock.api.DashClockExtension;
 import com.google.android.apps.dashclock.api.ExtensionData;
 
@@ -26,9 +26,9 @@ import java.util.Comparator;
 import java.util.LinkedList;
 
 public class CMDashClockExtension extends DashClockExtension {
-    private static final String TAG = "VanirDashClockExtension";
+    private static final String TAG = "cmremixDashClockExtension";
 
-    public static final String ACTION_DATA_UPDATE = "com.vanir.updater.action.DASHCLOCK_DATA_UPDATE";
+    public static final String ACTION_DATA_UPDATE = "com.cmremix.updater.action.DASHCLOCK_DATA_UPDATE";
 
     private static final int MAX_BODY_ITEMS = 3;
 

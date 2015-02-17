@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 The Vanir Project
+ * Copyright (C) 2013 cmRemiX Rom
  *
  * * Licensed under the GNU GPLv2 license
  *
@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.vanir.updater;
+package com.cmremix.updater;
 
 import android.content.Context;
 import android.util.AttributeSet;

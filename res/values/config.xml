@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2012 The Vanir Project
+<!-- Copyright (C) 2012 cmRemiX Rom
 
      Licensed under the GNU GPLv2 license
 
@@ -7,7 +7,7 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="conf_nightly_server_url" translatable="false">http://www.emccann.net/nuclearmistake/VanirAOSPNightlies/</string>
-    <string name="conf_release_server_url" translatable="false">http://www.emccann.net/nuclearmistake/VanirAOSPRelease/</string>
+    <string name="conf_nightly_server_url" translatable="false">https://s.basketbuild.com/devs/Zion959/cmRemiX/Lollipop/cmRemiXAOSPNightlies/</string>
+    <string name="conf_release_server_url" translatable="false">https://s.basketbuild.com/devs/Zion959/cmRemiX/Lollipop/cmRemiXAOSPRelease/</string>
     <bool name="alternateIsInternal">false</bool>
 </resources>
