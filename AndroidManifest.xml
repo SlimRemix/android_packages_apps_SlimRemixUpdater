@@ -74,12 +74,6 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.cmremix.updater.receiver.CheckFinishReceiver">
-            <intent-filter>
-                <action android:name="com.cmremix.cmremixupdater.action.UPDATE_CHECK_FINISHED"/>
-            </intent-filter>
-        </receiver>
-
     </application>
 
 </manifest>
