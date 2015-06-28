@@ -43,6 +43,7 @@ import android.widget.Toast;
 
 import com.android.internal.util.cm.ScreenType;
 
+import com.cmremix.updater.misc.Constants;
 import com.cmremix.updater.misc.State;
 import com.cmremix.updater.misc.UpdateInfo;
 import com.cmremix.updater.receiver.DownloadReceiver;
