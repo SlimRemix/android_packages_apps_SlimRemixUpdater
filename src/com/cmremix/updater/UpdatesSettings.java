@@ -41,7 +41,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.cmremix.updater.misc.Constants;
+import com.android.internal.util.cm.ScreenType;
+
 import com.cmremix.updater.misc.State;
 import com.cmremix.updater.misc.UpdateInfo;
 import com.cmremix.updater.receiver.DownloadReceiver;
@@ -231,7 +232,7 @@ public class UpdatesSettings extends PreferenceActivity implements
         super.onResume();
 
         // If running on a phone, remove padding around the listview
-        if (!Utils.isTablet(this)) {
+        if (!ScreenType.isTablet(this)) {
             getListView().setPadding(0, 0, 0, 0);
         }
     }
