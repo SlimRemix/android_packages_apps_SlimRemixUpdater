@@ -7,7 +7,7 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="conf_nightly_server_url" translatable="false">http://www.romwarehouse.com/zion959/CMRemixNightly/</string>
-    <string name="conf_release_server_url" translatable="false">http://www.romwarehouse.com/zion959/CMRemixStable/</string>
+    <string name="conf_nightly_server_url" translatable="false">http://www.romwarehouse.com/zion959/SlimRemixOTA/SlimRemixNightly/</string>
+    <string name="conf_release_server_url" translatable="false">http://www.romwarehouse.com/zion959/SlimRemixOTA/SlimRemixStable/</string>
     <bool name="alternateIsInternal">false</bool>
 </resources>
